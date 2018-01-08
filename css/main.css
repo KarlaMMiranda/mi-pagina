@@ -1,0 +1,130 @@
+body{
+  margin: 0;
+  padding: 0;
+	color: #fff;
+	font-family: 'Nunito Semibold';
+	text-align: center;
+}
+
+#container{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(4, auto);
+}
+
+nav{
+	background: #680529;
+  font-family: 'Montserrat', sans-serif;
+  display: grid;
+  grid-column: span 3;
+  grid-row: auto;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1rem 3rem;
+}
+
+.parte-1 {
+  font-weight: 800;
+  text-align: left;
+}
+
+.parte-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column: 3;
+  cursor: pointer;
+}
+
+.parte-2 button{
+  background-color: #680529;
+  color: #FFF;
+  border: .3rem solid #FFF;
+  border-radius: .2rem;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+/*Información general de perfil*/
+header{
+	background: #FFF;
+	padding: 4rem;
+  grid-column: span 3;
+}
+
+header img{
+  text-align: center;
+  border-radius: 50%;
+  width: 18rem;
+}
+
+.profile {
+  color: black;
+  text-align: center;
+  font-family: 'Happy Monkey', cursive;
+}
+
+.profile h1 {
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*Información de contacto*/
+main {
+  background: #9897C2;
+  padding: 3rem;
+  display: grid;
+  grid-column: span 3;
+}
+
+.info-1 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+  color: #000;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  padding: 1rem 2rem;
+  margin: 0;
+}
+
+main div {
+  padding: 1rem;
+  border: .4rem outset #FFF;
+}
+
+main p {
+  font-family: 'Happy Monkey', cursive;
+  font-size: 1.5rem;
+  padding: 1rem 2rem 0 0;
+}
+
+/*Información adicional del perfil */
+article {
+  background: #FFF;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  grid-column: span 3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 2rem;
+  margin: 0;
+}
+
+article img {
+  text-align: center;
+  width: 12rem;
+  height: 12rem;
+}
+
+article p {
+  text-align: justify;
+  font-family: 'Happy Monkey', cursive;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+}
+
+footer{
+  background: #560320;
+  padding: 2rem;
+  grid-column: span 3;
+  font-family: 'Montserrat', sans-serif;
+}

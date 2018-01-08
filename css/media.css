@@ -1,0 +1,13 @@
+@media screen and (min-width: 480px) and (max-width : 780px){
+  .container {
+    width: 100%;
+  }
+
+  .parte.2 {
+    display: none;
+  }
+
+  .parte-2 button {
+    display: block;
+  }
+}
